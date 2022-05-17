@@ -1,0 +1,1275 @@
+{
+  "title": "SmartAdvisor Captivate Funnel Instance Configuration",
+  "version": "1.4.1",
+  "modified_date": "2022-03-05",
+  "host": "*",
+  "description": "Survey to find a vetted fiduciary to help with individual finances",
+  "keywords": ["retirement", "financial advisor", "fiduciary", "financial security"],
+  "author": {
+    "name": "Financial Insight Technology, Inc.",
+    "email": "smartadvisor@smartasset.com",
+    "url": "https://smartasset.com/financial-advisor/about"
+  },
+  "question_groups": [
+    {
+      "group_key": "group__yearsFromRetirement",
+      "meta_content": {
+        "group_heading": "When will you retire?",
+        "group_footer": "This survey will match you with up to 3 vetted fiduciary financial advisors. We provide your advisor matches with your survey responses, which help them understand your financial goals. Your advisor matches are chosen based on your location and/or desire to work with remote advisors, as well as your stated amount of assets. We also consider each advisor's advertising budget, therefore advisors with larger budgets are more likely to appear in the results page. All advisors must meet the same vetting criteria.",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "yearsFromRetirement",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "1-4 years",
+              "value": "1-4 years",
+              "default": true
+            },
+            {
+              "description": "5-9 years",
+              "value": "5-9 years"
+            },
+            {
+              "description": "10-19 years",
+              "value": "10-19 years"
+            },
+            {
+              "description": "20-29 years",
+              "value": "20-29 years"
+            },
+            {
+              "description": "30+ years",
+              "value": "30+ years"
+            },
+            {
+              "description": "Already Retired",
+              "value": "Already Retired"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__howConfidentAreYou",
+      "meta_content": {
+        "group_heading": "How confident are you in your long term financial plan?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "howConfidentAreYou",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Very confident",
+              "value": "veryConfident",
+              "default": true
+            },
+            {
+              "description": "Somewhat confident",
+              "value": "somewhatConfident"
+            },
+            {
+              "description": "Not confident",
+              "value": "notConfident"
+            },
+            {
+              "description": "I don't have a plan",
+              "value": "iDontHaveAPlan"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+
+    {
+      "group_key": "group__retirementActivity",
+      "meta_content": {
+        "group_heading": "What activity is most important to you in retirement?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "retirementActivity",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Traveling",
+              "value": "Traveling",
+              "default": true
+            },
+            {
+              "description": "Spending time with family and friends",
+              "value": "Spending time with family and friends"
+            },
+            {
+              "description": "Pursuing hobbies",
+              "value": "Pursuing hobbies"
+            },
+            {
+              "description": "Working part-time",
+              "value": "Working part-time"
+            },
+            {
+              "description": "Other",
+              "value": "Other"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__retirementVision",
+      "meta_content": {
+        "group_heading": "Which word most accurately describes your vision of retirement?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "retirementVision",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Enjoyment",
+              "value": "Enjoyment",
+              "default": true
+            },
+            {
+              "description": "Freedom",
+              "value": "Freedom"
+            },
+            {
+              "description": "Leisure",
+              "value": "Leisure"
+            },
+            {
+              "description": "Other",
+              "value": "Other"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__incomeExpectation",
+      "meta_content": {
+        "group_heading": "Where do you expect the majority of your retirement income to come from?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "incomeExpectation",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Savings and investments",
+              "value": "Savings and investments",
+              "default": true
+            },
+            {
+              "description": "Employer (Pensions)",
+              "value": "Employer (Pensions)"
+            },
+            {
+              "description": "Government",
+              "value": "Government"
+            },
+            {
+              "description": "Other",
+              "value": "Other"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__retirementlocation",
+      "meta_content": {
+        "group_heading": "Are you planning on relocating for retirement?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "retirementrelocation",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Yes",
+              "value": "yes",
+              "default": true
+            },
+            {
+              "description": "No",
+              "value": "no"
+            },
+            {
+              "description": "Not sure",
+              "value": "notsure"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__health",
+      "meta_content": {
+        "group_heading": "How would you characterize your overall health?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "health",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Excellent",
+              "value": "Excellent",
+              "default": true
+            },
+            {
+              "description": "Good",
+              "value": "Good"
+            },
+            {
+              "description": "Fair",
+              "value": "Fair"
+            },
+            {
+              "description": "Poor",
+              "value": "Poor"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__comfortLevel",
+      "meta_content": {
+        "group_heading": "How comfortable are you with investing?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "comfortLevel",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Very comfortable",
+              "value": "Very comfortable",
+              "default": true
+            },
+            {
+              "description": "Somewhat comfortable",
+              "value": "Somewhat comfortable"
+            },
+            {
+              "description": "Not comfortable at all",
+              "value": "Not comfortable at all"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__timeToImproveStrat",
+      "meta_content": {
+        "group_heading": "How quickly would you like to improve your long-term financial strategy?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "timeToImprove",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "As soon as possible",
+              "value": "asap",
+              "default": true
+            },
+            {
+              "description": "Within the next 3 months",
+              "value": "threemonths"
+            },
+            {
+              "description": "Within the next year",
+              "value": "oneyear"
+            },
+            {
+              "description": "No specific timeframe / I don't want to make any changes",
+              "value": "nochanges"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__married",
+      "meta_content": {
+        "group_heading": "Are you married?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "branching": [
+        {
+          "criteria": [
+            {
+              "group_key": "group__married",
+              "question_key": "married",
+              "value": "No"
+            }
+          ],
+          "target_group_key": "group__homeowner",
+          "priority": 1
+        }
+      ],
+      "questions": [
+        {
+          "question_key": "married",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "No",
+              "value": "No",
+              "default": true
+            },
+            {
+              "description": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__separateOrJoint",
+      "meta_content": {
+        "group_heading": "Are you saving jointly or separately?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "separateOrJoint",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Separately",
+              "value": "Separately",
+              "default": true
+            },
+            {
+              "description": "Jointly",
+              "value": "Jointly"
+            },
+            {
+              "description": "Not Applicable",
+              "value": "Not Applicable"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__homeowner",
+      "meta_content": {
+        "group_heading": "Do you own your home?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "homeowner",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "No",
+              "value": "No",
+              "default": true
+            },
+            {
+              "description": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ],
+      "branching": [
+        {
+          "criteria": [
+            {
+              "group_key": "group__homeowner",
+              "question_key": "homeowner",
+              "value": "No"
+            }
+          ],
+          "target_group_key": "group__numMinors",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "group_key": "group__recentRefinance",
+      "meta_content": {
+        "group_heading": "Have you refinanced your home recently to take advantage of low interest rates?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "recentRefinance",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "No",
+              "value": "No",
+              "default": true
+            },
+            {
+              "description": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__numMinors",
+      "meta_content": {
+        "group_heading": "Do you currently have children under 18?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "branching": [
+        {
+          "criteria": [
+            {
+              "group_key": "group__numMinors",
+              "question_key": "numMinors",
+              "value": "No"
+            }
+          ],
+          "target_group_key": "group__businessOwner",
+          "priority": 1
+        }
+      ],
+      "questions": [
+        {
+          "question_key": "numMinors",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "No",
+              "value": "No",
+              "default": true
+            },
+            {
+              "description": "Yes, 1",
+              "value": "Yes, 1"
+            },
+            {
+              "description": "Yes, 2",
+              "value": "Yes, 2"
+            },
+            {
+              "description": "Yes, 3 or more",
+              "value": "Yes, 3 or more"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__collegeSavings",
+      "meta_content": {
+        "group_heading": "Would you like help creating a college savings program for them?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "collegeSavings",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "No",
+              "value": "No",
+              "default": true
+            },
+            {
+              "description": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__businessOwner",
+      "meta_content": {
+        "group_heading": "Do you own a business?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "businessOwner",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "No",
+              "value": "No",
+              "default": true
+            },
+            {
+              "description": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__has401k",
+      "meta_content": {
+        "group_heading": "Do you have a 401k?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "testoneFourOhOne",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Yes",
+              "value": "Yes",
+              "default": true
+            },
+            {
+              "description": "No",
+              "value": "No"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__hasIRA",
+      "meta_content": {
+        "group_heading": "Do you have an IRA?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "testoneIRA",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Yes",
+              "value": "Yes",
+              "default": true
+            },
+            {
+              "description": "No",
+              "value": "No"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__hasEmergencyFund",
+      "meta_content": {
+        "group_heading": "Do you have an emergency fund?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "testoneemergencyfund",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Yes",
+              "value": "Yes",
+              "default": true
+            },
+            {
+              "description": "No",
+              "value": "No"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__expertise",
+      "meta_content": {
+        "group_heading": "Which of these is most important for your financial advisor to have?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "expertise",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Tax expertise",
+              "value": "Tax expertise",
+              "default": true
+            },
+            {
+              "description": "Investment management expertise",
+              "value": "Insurance product expertise"
+            },
+            {
+              "description": "Estate planning expertise",
+              "value": "Estate planning expertise"
+            },
+            {
+              "description": "None of the above",
+              "value": "None of the above"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__sociallyResponsible",
+      "meta_content": {
+        "group_heading": "Is socially responsible investing important to you?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "sociallyResponsible",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Must have",
+              "value": "Must have",
+              "default": true
+            },
+            {
+              "description": "Nice to have",
+              "value": "Nice to have"
+            },
+            {
+              "description": "Not important",
+              "value": "Not important"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__hasAdvisor",
+      "meta_content": {
+        "group_heading": "Do you currently have a financial advisor?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "branching": [
+        {
+          "criteria": [
+            {
+              "group_key": "group__hasAdvisor",
+              "question_key": "hasAdvisor",
+              "value": "No"
+            }
+          ],
+          "target_group_key": "group__location",
+          "priority": 1
+        }
+      ],
+      "questions": [
+        {
+          "question_key": "hasAdvisor",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "No",
+              "value": "No",
+              "default": true
+            },
+            {
+              "description": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__whyNewAdvisor",
+      "meta_content": {
+        "group_heading": "Why are you looking for a new one?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "whyNewAdvisor",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "I’m unsatisfied with my current advisor",
+              "value": "I’m unsatisfied with my current advisor",
+              "default": true
+            },
+            {
+              "description": "I’d like to get another advisor’s perspective",
+              "value": "I’d like to get another advisor’s perspective"
+            },
+            {
+              "description": "I have substantial wealth that I’d like to divide with another advisor",
+              "value": "I have substantial wealth that I’d like to divide with another advisor"
+            },
+            {
+              "description": "I recently relocated",
+              "value": "I recently relocated"
+            },
+            {
+              "description": "Other",
+              "value": "Other"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__location",
+      "meta_content": {
+        "group_heading": "Where do you live?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "location",
+          "answer_type": "short_answer",
+          "placeholder": "Zip code (e.g. 90210)",
+          "validations": [
+            {
+              "type": "required",
+              "params": [
+                "Please enter a valid zip code"
+              ]
+            },
+            {
+              "type": "length",
+              "params": [
+                5,
+                "Please enter a valid zip code"
+              ]
+            }
+          ],
+          "autofill": {
+            "url": "https://ipinfo.io/json?token=31dc89a6679ef6",
+            "transform": ".postal"
+          }
+        }
+      ]
+    },
+    {
+      "group_key": "group__drivingDistance",
+      "meta_content": {
+        "group_heading": "Do you need your financial advisor to be in your immediate area?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "drivingDistance",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "No, I am comfortable working by phone or video",
+              "value": "No, I am comfortable working by phone or video-conference",
+              "default": true
+            },
+            {
+              "description": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__newQincome",
+      "meta_content": {
+        "group_heading": "Please estimate your household income.",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "newQincome",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Less than $40,000",
+              "value": "(min, 40000)",
+              "default": true
+            },
+            {
+              "description": "$40,000 - $74,999",
+              "value": "[40000, 75000)"
+            },
+            {
+              "description": "$75,000 - $99,999",
+              "value": "[75000, 100000)"
+            },
+            {
+              "description": "$100,000 - $149,999",
+              "value": "[100000, 150000)"
+            },
+            {
+              "description": "$150,000 - $249,999",
+              "value": "[150000, 250000)"
+            },
+            {
+              "description": "Over $250,000",
+              "value": "[250000, max)"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__currentSavings",
+      "meta_content": {
+        "group_heading": "Please estimate your total investable assets.",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "currentSavings",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Less than $25,000",
+              "value": "(min, 25000)"
+            },
+            {
+              "description": "$25,000 - $99,999",
+              "value": "[25000, 100000)"
+            },
+            {
+              "description": "$100,000 - $249,999",
+              "value": "[100000, 250000)"
+            },
+            {
+              "description": "$250,000 - $999,999",
+              "value": "[250000, 1000000)"
+            },
+            {
+              "description": "$1,000,000 - $4,999,999",
+              "value": "[1000000, 5000000)"
+            },
+            {
+              "description": "Over $5,000,000",
+              "value": "[5000000, max)"
+            }
+          ],
+          "single_choice_required": true
+        }
+      ]
+    },
+    {
+      "group_key": "group__saving",
+      "meta_content": {
+        "group_heading": "Please estimate your current monthly savings.",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "saving",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Less than $100",
+              "value": "Less than $100",
+              "default": true
+            },
+            {
+              "description": "$100 - $249",
+              "value": "$100 - $249"
+            },
+            {
+              "description": "$250 - $499",
+              "value": "$250 - $499"
+            },
+            {
+              "description": "$500 - $999",
+              "value": "$500 - $999"
+            },
+            {
+              "description": "$1,000 - $1,999",
+              "value": "$1,000 - $1,999"
+            },
+            {
+              "description": "Over $2,000",
+              "value": "Over $2,000"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__howDidYouHearAboutUs",
+      "meta_content": {
+        "group_heading": "How did you hear about us?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "howDidYouHearAboutUsV2",
+          "answer_type": "single_choice",
+          "answer_choices": [
+            {
+              "description": "Social media",
+              "value": "Social media",
+              "default": true
+            },
+            {
+              "description": "Internet search",
+              "value": "Internet search"
+            },
+            {
+              "description": "Online ad",
+              "value": "Online ad"
+            },
+            {
+              "description": "TV",
+              "value": "TV"
+            },
+            {
+              "description": "Physical mail",
+              "value": "Physical mail"
+            },
+            {
+              "description": "Referral",
+              "value": "Referral"
+            },
+            {
+              "description": "Other",
+              "value": "Otherv2"
+            }
+          ],
+          "single_choice_required": false
+        }
+      ]
+    },
+    {
+      "group_key": "group__advisorQuestions",
+      "meta_content": {
+        "group_heading": "Is there anything else you'd like your matches to know? (optional)",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        }
+      },
+      "questions": [
+        {
+          "question_key": "advisorQuestions",
+          "answer_type": "short_answer"
+        }
+      ]
+    },
+    {
+      "group_key": "group__email",
+      "meta_content": {
+        "group_heading": "Where should we send your matches?",
+        "group_subtext": "**Bonus:** We'll send you a personalized retirement report once you verify your contact info",
+        "accordion": {
+          "header": "Why do we need this information?",
+          "paragraph": "We will email you your financial advisor results, information about safely finding a financial advisor, and marketing communications. By proceeding, you agree to receive emails from SmartAsset, and you can unsubscribe at any time."
+        },
+        "extra_message": "Your information is secure.",
+        "intermission": {
+          "delay_time": 6500,
+          "complete": false,
+          "iframe": "https://captivate.smartasset.com/loadingiframe.html",
+          "prefetch": [
+            "https://dr5dymrsxhdzh.cloudfront.net/files/14a4dfb7/js/tools/jquery.min.js",
+            "https://use.typekit.net/but3kfs.css",
+            "https://sa-a-img.s3.amazonaws.com/imgs/falc/loading-desktop.jpg"
+          ]
+        }
+      },
+      "disableBackNavigation": true,
+      "questions": [
+        {
+          "question_key": "email",
+          "answer_type": "short_answer",
+          "label_text": "Email",
+          "validations": [
+            {
+              "type": "required",
+              "params": [
+                "Email is required"
+              ]
+            },
+            {
+              "type": "email",
+              "params": [
+                "Please enter a valid email address"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_key": "group__GroupUsername",
+      "meta_content": {
+        "group_heading": "Almost Done! What's your name?",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        },
+        "extra_message": "Your information is secure."
+      },
+      "questions": [
+        {
+          "question_key": "first_name",
+          "answer_type": "short_answer",
+          "label_text": "First Name",
+          "validations": [
+            {
+              "type": "required",
+              "params": [
+                "Please enter a valid first name"
+              ]
+            },
+            {
+              "type": "matches",
+              "params": ["^[a-zA-Z\u00C0-\u024F\u1E00-\u1EFF]+(([',. -][a-zA-Z\u00C0-\u024F\u1E00-\u1EFF])?[a-zA-Z\u00C0-\u024F\u1E00-\u1EFF]*)*$",
+                         {"message": "Please enter a valid first name"}]
+            },
+            {
+              "type": "max",
+              "params": [40, "Please enter a valid first name"]
+            },
+            {
+              "type": "min",
+              "params": [2, "Please enter a valid first name"]
+            }
+          ]
+        },
+        {
+          "question_key": "last_name",
+          "answer_type": "short_answer",
+          "label_text": "Last Name",
+          "validations": [
+            {
+              "type": "required",
+              "params": [
+                "Please enter a valid last name"
+              ]
+            },
+            {
+              "type": "matches",
+              "params": ["^[a-zA-Z\u00C0-\u024F\u1E00-\u1EFF]+(([',. -][a-zA-Z\u00C0-\u024F\u1E00-\u1EFF])?[a-zA-Z\u00C0-\u024F\u1E00-\u1EFF]*)*$",
+                         {"message": "Please enter a valid last name"}]
+            },
+            {
+              "type": "max",
+              "params": [40, "Please enter a valid last name"]
+            },
+            {
+              "type": "min",
+              "params": [2, "Please enter a valid last name"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_key": "group__phone",
+      "meta_content": {
+        "next_cta_text": "See Results",
+        "group_subtext": "**Important:** you'll receive your report shortly after we verify your information",
+        "group_footer": "By clicking \"See Results\" you accept our [Terms of Service](https://smartasset.com/terms) and consent to receive emails and marketing calls/texts at the number above from SmartAsset and up to 3 financial advisors. Calls/texts may be autodialed and/or prerecorded. Consent not required to purchase.",
+        "accordion": {
+          "header": "",
+          "paragraph": ""
+        },
+        "extra_message": "Your information is secure."
+      },
+      "questions": [
+        {
+          "question_key": "phone",
+          "label_text": "Mobile phone number",
+          "answer_type": "short_answer",
+          "validations": [
+            {
+              "type": "required",
+              "params": [
+                "Phone number is required"
+              ]
+            }
+          ]
+        },
+        {
+          "question_key": "terms_of_service",
+          "label_text": "By clicking \"See Results\" you agree to our [Terms of Service](https://smartasset.com/terms) acknowledge our [disclosures](https://smartasset.com/important-disclosures), and acknowledge you will receive each advisor's Form ADV Part 2A.",
+          "default_checked": true,
+          "answer_type": "checkbox",
+          "validations": [
+            {
+              "type": "required",
+              "params": [
+                "Terms agreement is required"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "eventSubscriptions": {
+    "QUESTION_RESPONSE": [
+      {
+        "request": {
+          "url": "https://funnel-backend.prod.smartasset.com/api/falcfunnelsession/answer",
+          "method": "POST"
+        },
+        "headers": {
+          "content-type": "application/x-www-form-urlencoded"
+        },
+        "transform": "{\"questionName\": .question_key, \"answer\": .value, \"sessionUUID\": .sessionUUID}"
+      },
+      {
+        "cond": { "question_key": "advisorQuestions" },
+        "request": {
+          "url": "https://funnel-backend.prod.smartasset.com/api/leadcapture/advisormatch",
+          "method": "POST"
+        },
+        "headers": {
+          "content-type": "application/x-www-form-urlencoded"
+        },
+        "transform": "{\"sessionUUID\": .sessionUUID, \"mixpanelId\": .mixpanelId, \"abv\": \"99\", \"utmCampaign\": .utm.campaign, \"utmContent\": .utm.content, \"utmSource\": .utm.source, \"utmTerm\": .utm.term, \"utmMedium\": .utm.medium, \"utmId\": .utm.id, \"partner_utm_campaign\": .utm.partner_campaign, \"partner_utm_content\": .utm.partner_content, \"partner_utm_source\": .utm.partner_source, \"partner_utm_term\": .utm.partner_term, \"partner_utm_medium\": .utm.partner_medium, \"responses\": [.responses[] | {\"panelName\": .question_key, \"answerValue\": .value}] | tostring}"
+      }
+    ],
+    "FUNNEL_FINALIZE": [
+      {
+        "request": {
+          "url": "https://funnel-backend.prod.smartasset.com/api/leadcapture/leadcapture",
+          "method": "POST"
+        },
+        "headers": {
+          "content-type": "application/x-www-form-urlencoded"
+        },
+        "transform": "{\"sessionUUID\": .sessionUUID, \"session_id\": .session_id, \"valid\": .valid_lead, \"firstname\": [.responses[]|{\"key\": .question_key, \"value\": .value}]|from_entries.first_name, \"lastname\": [.responses[]|{\"key\": .question_key, \"value\": .value}]|from_entries.last_name, \"email\": [.responses[]|{\"key\": .question_key, \"value\": .value}]|from_entries.email, \"phone\": [.responses[]|{\"key\": .question_key, \"value\": .value}]|from_entries.phone, \"responses\": [{\"panelName\":\"firstname\",\"answerValue\":[.responses[]|{\"key\": .question_key, \"value\": .value}]|from_entries.first_name}, {\"panelName\":\"lastname\",\"answerValue\":[.responses[]|{\"key\": .question_key, \"value\": .value}]|from_entries.last_name}, {\"panelName\":\"email\",\"answerValue\":[.responses[]|{\"key\": .question_key, \"value\": .value}]|from_entries.email}, {\"panelName\":\"phone\",\"answerValue\":[.responses[]|{\"key\": .question_key, \"value\": .value}]|from_entries.phone}, {\"panelName\":\"terms_of_service\",\"answerValue\":[.responses[]|{\"key\": .question_key, \"value\": .value}]|from_entries.terms_of_service}]|tostring}"
+      }
+    ]
+  },
+  "postFunnelExperienceConfig": {
+    "iframe": "https://smartasset.com/retirement/financial-advisor?matches=true&isIFrame=partner"
+  }
+}
